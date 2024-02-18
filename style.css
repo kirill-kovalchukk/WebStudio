@@ -1,0 +1,27 @@
+.effect-absolution{
+    background-color: #2F303A; }
+    .effect-absolution h1{
+    color: #FFF;
+    }
+
+    :root {
+        --black: #2F303A;
+        --blue: #2196F3;
+        --white: #FFFFFF;
+    }
+
+   body {background-color: var(--white);
+
+    h1 { border-bottom: #2196F3: 2px solid var(#2196F3);}
+
+    button {
+        background-color: var(--blue);
+        color: var(--white);
+        border: 1px solid var(--black);
+        padding: 10px;
+    } 
+
+    footer {
+        background-color: #2F303A;
+        color: var(--white);
+    }

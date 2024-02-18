@@ -1,0 +1,12 @@
+/*
+.title ~ .text{
+    color: var(--backgroun-first-link)
+}
+*/
+a[href="https"]{
+    color: var(--background-second-link);
+}
+
+.wrap-text ~ p{
+    color: red;
+}
