@@ -1,13 +1,16 @@
 body {
-    font-family: "Inter";
+    font-family: "Roboto", sans-serif
    }
 
    .futers-item p{
-    height: 75px;
     width: 270px;
+    font-size: 170%;
+    line-height: 20;
    }
     
 .item-our-team-text p{
+    font-size: 170%; 
+    line-height: 20px;
     height: 19px;
     width: 87px;
 }
@@ -25,8 +28,10 @@ body {
     }
 
    body {background-color: var(--white);
+   }
 
-    h1 { border-bottom: #2196F3: 2px solid var(#2196F3);}
+    h1 { border-bottom: #2196F3: 2px solid var(#2196F3);
+       }
 
     button {
         background-color: var(--blue);
