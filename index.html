@@ -7,128 +7,129 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@100,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@100,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <a href=""><img src="Img/WebStudio (1).png" alt="#"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Студія</a></li>
-                <li><a href="portfolio.html">Портфоліо</a></li>
-                <li><a href="#">Контакти</a></li>
-                <li><a href="mailto: info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel: +380 96 111 11 11">+380961111111</a></li>
+        <header class="header">
+        <nav class="header-navigation">
+            <a class="header-logo" href=""><img src="Img/WebStudio (1).png" alt="#"></a>
+            <ul  class="header-list">
+                <li class="header-item"><a href="index.html">Студія</a></li>
+                <li class="header-item"><a href="portfolio.html">Портфоліо</a></li>
+                <li class="header-item"><a href="#">Контакти</a></li>
+                <li class="header-item"><a href="mailto: info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-item"><a href="tel: +380 96 111 11 11">+380961111111</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <section class="effect-absolution"> 
-            <div>
-                <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-                <button>Замовити послугу</button>
+        <section class="effect-absolution">
+            <div class="effect-absolution-wrap">
+                <h1 class="effect-absolution-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+                <button class="effect-absolution-title">Замовити послугу</button>
             </div>
         </section>
-        <section>
+        <section class="futers">
             <article>
-                <ul>
-                    <li>
+                <ul class="futers-list">
+                    <li class="futers-item">
                         <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
                         <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </li>
-                    <li>
+                    <li class="futers-item">
                         <h4>ПУНКТУАЛЬНІСТЬ</h4>
                         <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </li>
-                    <li>
+                    <li class="futers-item">
                         <h4>ПЛАНУВАННЯ</h4>
                         <p>Так само консультація з широкимактивом значною мірою зумовлює.</p>
                     </li>
-                    <li>
+                    <li class="futers-item">
                         <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
                         <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                     </li>
                 </ul>
             </article>
         </section>
-        <section>
+        <section class="what-we-do">
             <article>
-                <h2>Чим ми займаємося</h2>
-                <img src="https://siriuspro.pl/wp-content/uploads/wordpress-tworzenie-strony-krok-po-kroku.webp" alt="#"
-                    width="400">
-                <img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/box-002.jpg" alt="#" width="400">
-                <img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/box-003.jpg" alt="#" width="400">
+                <h2 class="what-we-do-item">Чим ми займаємося</h2>
+                <div class="what-we-do">
+                    <img class="what-we-do-img" src="https://siriuspro.pl/wp-content/uploads/wordpress-tworzenie-strony-krok-po-kroku.webp"
+                        alt="#" width="400">
+                    <img class="what-we-do-img" src="https://stas-yushkov.github.io/goit-markup-hw-05/images/box-002.jpg" alt="#" width="400">
+                    <img class="what-we-do-img" src="https://stas-yushkov.github.io/goit-markup-hw-05/images/box-003.jpg" alt="#" width="400">
+                </div>
             </article>
         </section>
-        <section>
+        <section class="our-team">
 
-            <h2>Наша команда</h2>
-            <article>
-                <figure><img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/card-001.jpg" alt="#"
+            <h2 class="our-team-title">Наша команда</h2>
+            <article class="img-our-team">
+                <figure class="img-item-our-team"><img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/card-001.jpg" alt="#"
                         width="250">
-                    <figcaption>
+                    <figcaption class="item-our-team-text">
                         <h3>Ігор Дем'янко</h3>
                         <p>Product Designer</p>
                     </figcaption>
                 </figure>
-            </article>
-            <article>
-                <figure><img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/card-002.jpg" alt="#"
+
+                <figure class="img-item-our-team"><img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/card-002.jpg" alt="#"
                         width="250">
-                    <figcaption>
+                    <figcaption class="item-our-team-text">
                         <h3>Ольга Рєпіна</h3>
                         <p>Frontend Developer</p>
                     </figcaption>
                 </figure>
-            </article>
-            <article>
-                <figure><img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/card-003.jpg" alt="#"
+
+                <figure class="img-item-our-team"><img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/card-003.jpg" alt="#"
                         width="250">
-                    <figcaption>
+                    <figcaption class="item-our-team-text">
                         <h3>Микола Тарасов</h3>
                         <p>Marketing</p>
                     </figcaption>
                 </figure>
-            </article>
-            <article>
-                <figure><img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/card-004.jpg" alt="#"
+                <figure class="img-item-our-team"><img src="https://stas-yushkov.github.io/goit-markup-hw-05/images/card-004.jpg" alt="#"
                         width="250">
-                    <figcaption>
+                    <figcaption class="item-our-team-text">
                         <h3>Михайло Єрмаков</h3>
                         <p>UI Designer</p>
                     </figcaption>
             </article>
         </section>
     </main>
-    <footer>
-        <section class="effect-absolution"
-        <div>
-            <a href=""><img src="Img/WebStudio (1).png" alt="#"></a>
-            <address> м.Київ, пр-т Лесі Українки, 26</address>
-            <a href="mailto:info@example.com ">info@example.com</a>
-            <a href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
-        </div> </section>
-        <div class="container">
+    <footer class="footer">
+      
+        <div class="footer-wrap">
+            <a class="footer-img" href=""><img src="Img/WebStudio (1).png" alt="#"></a>
+            <address class="footer-address"> м.Київ, пр-т Лесі Українки, 26</address>
+            <a class="footer-mailto" href="mailto:info@example.com ">info@example.com</a>
+            <a class="footer-tel" href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
+        </div>
+
+        <!-- <div class="container">
             <header class="container__header">
-            <h1 class="container__header__title">Заголовок</h1>
-            <nav class="container__header__nav">
-            <ul class="container__header__nav__list">
-            <li class="container__header__nav__list__item">Пункт меню 1</li>
-            <li class="container__header__nav__list__item">Пункт меню 2</li>
-            </ul>
-            </nav>
+                <h1 class="container__header__title">Заголовок</h1>
+                <nav class="container__header__nav">
+                    <ul class="container__header__nav__list">
+                        <li class="container__header__nav__list__item">Пункт меню 1</li>
+                        <li class="container__header__nav__list__item">Пункт меню 2</li>
+                    </ul>
+                </nav>
             </header>
             <section class="container__content">
-            <article class="container__content__article">
-            <h2 class="container__content__article__title">Стаття</h2>
-            <p class="container__content__article__text">Текст статті...</p>
-            </article>
+                <article class="container__content__article">
+                    <h2 class="container__content__article__title">Стаття</h2>
+                    <p class="container__content__article__text">Текст статті...</p>
+                </article>
             </section>
             <footer class="container__footer">
-            <p class="container__footer__text">Копірайт...</p>
-            </div>
+                <p class="container__footer__text">Копірайт...</p>
+        </div> -->
     </footer>
 </body>
 </html>
