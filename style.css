@@ -1,9 +1,57 @@
+body {    
+    display: flex;
+    flex-direction: column;    
+    min-height: 100vh;    
+    margin: 0;    
+    font-family: Arial, sans-serif;}
+    .header, 
+    .footer, 
+    .nav-list, 
+    .contact-info, 
+    .services, 
+    .team {    
+        display: flex;}
+
+        .nav-list, 
+        .contact-info, 
+        .services, 
+        .team {    
+            flex-direction: row;    
+            justify-content: 
+            space-between;}
+            .header {    
+                flex-direction: column;    
+                align-items: center;
+            }
+            .intro {    
+                display: flex;    
+                flex-direction: column;    
+                align-items: center;    
+                text-align: center;
+            }.service, 
+            .member {    
+                flex: 1;    
+                padding: 20px;    
+                box-sizing: border-box;
+            }
+            .footer {    
+                justify-content: space-between;   
+                 padding: 20px;
+                }
+                .nav-list li {    
+                    list-style: none;    
+                    padding: 10px;}
+
+
+
+
+
 what-we-do,
 our-team,
 p {
     margin: 0;
   }
-  
+
 body {
     font-family: "Roboto", sans-serif
    }
