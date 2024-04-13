@@ -8,3 +8,21 @@
         background-color: var(--black);
         color: var(--white);
     } 
+
+    .header-item{
+        max-width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+
+    .buttons{
+        max-width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+
+    .posts{
+        max-width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
