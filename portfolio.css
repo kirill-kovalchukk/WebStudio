@@ -1,3 +1,5 @@
+  
+   
    :root {
     --blue: #2196F3;
     --white: #FFFFFF;
@@ -13,6 +15,12 @@
         max-width: 480px;
     margin: 0 auto;
     padding: 0 15px;
+    display: grid;
+    grid-template-columns:
+     repeat(auto-fill, minmax(250px,
+     1fr));
+     grid-gap: 20px;
+     padding: 20px;
     }
 
     .buttons{
@@ -25,4 +33,8 @@
         max-width: 480px;
     margin: 0 auto;
     padding: 0 15px;
+    background: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 2px 5px
+    rgba(0,0,0,0.1);
     }
