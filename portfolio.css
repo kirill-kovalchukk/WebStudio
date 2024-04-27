@@ -1,4 +1,21 @@
-  
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.buttons{
+    padding-top: 89px;
+    padding-bottom: 34px;
+}
+
+
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
    
    :root {
     --blue: #2196F3;
@@ -7,38 +24,8 @@
    }
 
     footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
         background-color: var(--black);
         color: var(--white);
     } 
-
-    .header-item{
-        max-width: 480px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: grid;
-    grid-template-columns:
-     repeat(auto-fill, minmax(250px,
-     1fr));
-     grid-gap: 20px;
-     padding: 20px;
-    }
-
-    .buttons{
-        max-width: 480px;
-    margin: 0 auto;
-    padding: 0 15px;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.87); 
-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.87);
-    }
-
-    .posts{
-        -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.87); 
-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.87);
-        max-width: 480px;
-    margin: 0 auto;
-    padding: 0 15px;
-    background: #f0f0f0;
-    padding: 20px;
-    box-shadow: 0 2px 5px
-    rgba(0,0,0,0.1);
-    }
