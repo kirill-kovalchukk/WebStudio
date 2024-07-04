@@ -28,6 +28,10 @@ body {
     .header-item {
     margin: 0 15px;
     }
+
+    .header-item:hover{
+        color: rgba(33, 150, 243, 1);
+    }
     
     .header-item img {
     height: 20px; 
@@ -288,3 +292,128 @@ footer {
     position: absolute;
     left: 550px;
 }
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-left: 100px;
+    }
+    
+    .subscription-form {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    margin-bottom: 10px;
+    }
+    
+    .subscription-form label {
+    color: #fff;
+    margin-right: 10px;
+    }
+    
+    .subscription-form input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #fff;
+    }
+    
+    .subscription-form input::placeholder {
+    color: #ccc;
+    }
+    
+    .subscription-form button {
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .subscription-form button:hover {
+    background-color: #008ecc;
+    }
+
+    body.no-scroll {
+        overflow: hidden;
+        }
+        
+        .backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s, visibility 0.3s;
+        }
+        
+        .backdrop:not(.is-hidden) {
+        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
+        }
+        
+        .modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .modal-close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        }
+        
+        .modal-close-btn:hover {
+        color: red;
+        }
+        
+        form input,
+        form textarea,
+        form button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        }
+        
+        form input:hover,
+        form textarea:hover,
+        form button:hover {
+        border-color: blue;
+        }
+        
+        form button {
+        background: blue;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        }
+        
+        form button:hover {
+        background: darkblue;
+        }

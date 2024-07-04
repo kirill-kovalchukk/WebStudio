@@ -23,12 +23,16 @@
                     <li class="header-item"><a href="index.html">Студія</a></li>
                     <li class="header-item"><a href="portfolio.html">Портфоліо</a></li>
                     <li class="header-item"><a href="#">Контакти</a></li>
-                    <img src="Img/envelope (hover).png" alt="#">
+                    <svg>
+                        <use href="Img/symbol-defs.svg#icon-envelope-hover-1"></use>
+                    </svg>
                     <li class="header-item"><a href="mailto: info@devstudio.com">info@devstudio.com</a></li>
-                    <img src="Img/smartphone.png" alt="#">
+                    <svg>
+                        <use href="Img/symbol-defs.svg#icon-smartphone-1"></use>
+                    </svg>
                     <li class="header-item"><a href="tel: +380 96 111 11 11">+380961111111</a></li>
                 </ul>
-            </nav>
+            </nav> 
         </div>
     </header>
     <main>
@@ -75,23 +79,17 @@
                     <h2 class="what-we-do-item">Чим ми займаємося</h2>
                     <div class="what-we-do">
                         <div class="tumb">
-                            <img class="what-we-do-img"
-                            src="Img/box 1.png"
-                            alt="#" width="370px">
+                            <img class="what-we-do-img" src="Img/box 1.png" alt="#" width="370px">
                             <p class="Dekstop">ДЕКСТОПНІ ДОДАТКИ</p>
                         </div>
-                        
+
                         <div class="tumb">
-                            <img class="what-we-do-img"
-                            src="Img/box 2.png" alt="Мобільні додатки"
-                            width="370px">
+                            <img class="what-we-do-img" src="Img/box 2.png" alt="Мобільні додатки" width="370px">
                             <p class="Mobile">МОБІЛЬНІ ДОДАТКИ</p>
                         </div>
-                        
+
                         <div class="tumb">
-                            <img class="what-we-do-img"
-                            src="Img/box 3.png" alt="Дизайнерські рішення"
-                            width="370px">
+                            <img class="what-we-do-img" src="Img/box 3.png" alt="Дизайнерські рішення" width="370px">
                             <p class="Design">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
                         </div>
                     </div>
@@ -103,23 +101,54 @@
             <div class="container">
                 <h2 class="our-team-title">Наша команда</h2>
                 <article class="img-our-team">
-                    <figure class="img-item-our-team"><img
-                            src="Img/team card 1.png" alt="#"
-                            width="250">
+                    <figure class="img-item-our-team">
+                        <img src="" alt="#" width="250">
                     </figure>
 
-                    <figure class="img-item-our-team"><img
-                            src="Img/team card 2.png" alt="#"
-                            width="250">
+                    <figure class="img-item-our-team">
+                        <img src="" alt="#" width="250">
                     </figure>
 
-                    <figure class="img-item-our-team"><img
-                            src="Img/team card 3.png" alt="#"
-                            width="250">
+                    <figure class="img-item-our-team">
+                        <img src="" alt="#" width="250">
                     </figure>
-                    <figure class="img-item-our-team"><img
-                            src="Img/team card 4.png" alt="#"
-                            width="250">
+                    <figure class="img-item-our-team">
+                        <img src="" alt="#" width="250">
+                        <figcaption>
+                            <img src="Img/img (16).png" alt="#">
+                            <h3>
+                                Михайло Єрмаков
+                            </h3>
+                            <p>
+                                UI Designer
+                            </p>
+                            <div>
+                                <a href="">
+                                    <svg>
+                                        <use href="Img/symbol-defs.svg#icon-instagram-2"></use>
+                                    </svg>
+                                </a>
+
+                                <a href="">
+                                    <svg>
+                                        <use href="Img/symbol-defs.svg#icon-twitter-1"></use>
+                                    </svg>
+                                </a>
+
+                                <a href="">
+                                    <svg>
+                                        <use href="Img/symbol-defs.svg#icon-facebook-1"></use>
+                                    </svg>
+                                </a>
+
+                                <a href="">
+                                    <svg>
+                                        <use href="Img/symbol-defs.svg#icon-linkedin-1"></use>
+                                    </svg>
+                                </a>
+
+                            </div>
+                        </figcaption>
                 </article>
             </div>
         </section>
@@ -136,6 +165,13 @@
                 <a class="footer-tel" href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
                 <img class="social" src="Img/Social links.png" alt="#">
             </div>
+            <div class="footer-container">
+                <div class="subscription-form">
+                    <label for="email">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</label>
+                <input type="email" id="email" placeholder="E-mail">
+                <button type="submit">Підписатися</button>
+                </div>
+                </div>
         </div>
 
 
@@ -160,5 +196,30 @@
                 <p class="container__footer__text">Копірайт...</p>
         </div> -->
     </footer>
+
+    <section class="hero">        
+        <button data-modal-open class="open-modal-btn">Замовити послугу</button>    
+    </section>    <div class="backdrop is-hidden" data-modal>        
+        <div class="modal">            
+            <button class="modal-close-btn" data-modal-close>&times;
+            </button>            
+            <form>                
+                <label for="name">Ім'я</label>                
+                <input type="text" id="name" name="name">                
+                <label for="phone">Телефон</label>                
+                <input type="tel" id="phone" name="phone">                
+                <label for="email">Пошта</label>                
+                <input type="email" id="email" name="email">                
+                <label for="comment">Коментар</label>                
+                <textarea id="comment" name="comment"></textarea>                
+                <label>                    
+                    <input type="checkbox" name="agree">                    
+                    Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>                
+                </label>                
+                <button type="submit">Відправити</button>            
+            </form>        
+        </div>    
+    </div>    
+    <script src="modal.js"></script>
 </body>
 </html>
