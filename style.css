@@ -388,9 +388,6 @@ footer {
         cursor: pointer;
         }
         
-        .modal-close-btn:hover {
-        color: red;
-        }
         
         form input,
         form textarea,
@@ -414,6 +411,21 @@ footer {
         cursor: pointer;
         }
         
-        form button:hover {
-        background: darkblue;
-        }
+
+        .x{
+            filter: grayscale(1);
+            border: none;
+            background: none;
+            position: absolute;
+            top: -1px;
+            right: -195px;
+            transition: ease filter, transform 0.3s;
+            cursor: pointer;
+            transform-origin: center;
+            &:hover{
+                filter: grayscale(0);
+                transform: scale(1.1);
+            }
+            }
+
+            

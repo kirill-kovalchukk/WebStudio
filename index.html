@@ -40,7 +40,28 @@
             <div class="container">
                 <div class="effect-absolution-wrap">
                     <h1 class="effect-absolution-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-                    <button class="effect-absolution-title">Замовити послугу</button>
+                    <section class="hero">        
+                        <button data-modal-open class="open-modal-btn">Замовити послугу</button>    
+                    </section>    <div class="backdrop is-hidden" data-modal>        
+                        <div class="modal">            
+                            <button class="modal-close-btn" data-modal-close>&times;
+                            </button>            
+                            <form>         
+                                <label for="name">Ім'я</label> 
+                                <input type="text" id="name" name="name">  
+                                <label for="phone">Телефон</label>   
+                                <input type="tel" id="phone" name="phone">             
+                                <label for="email">Пошта</label>    
+                                <input type="email" id="email" name="email">            
+                                <label for="comment">Коментар</label>                
+                                <textarea id="comment" name="comment" placeholder="Введіть текст"></textarea>                
+                                <label>                    
+                                    <input type="checkbox" name="agree">                    
+                                    Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>                
+                                </label>                
+                                <button type="submit">Відправити</button> 
+                                <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>           
+                            </form>        
                 </div>
             </div>
 
@@ -196,28 +217,6 @@
                 <p class="container__footer__text">Копірайт...</p>
         </div> -->
     </footer>
-
-    <section class="hero">        
-        <button data-modal-open class="open-modal-btn">Замовити послугу</button>    
-    </section>    <div class="backdrop is-hidden" data-modal>        
-        <div class="modal">            
-            <button class="modal-close-btn" data-modal-close>&times;
-            </button>            
-            <form>                
-                <label for="name">Ім'я</label>                
-                <input type="text" id="name" name="name">                
-                <label for="phone">Телефон</label>                
-                <input type="tel" id="phone" name="phone">                
-                <label for="email">Пошта</label>                
-                <input type="email" id="email" name="email">                
-                <label for="comment">Коментар</label>                
-                <textarea id="comment" name="comment"></textarea>                
-                <label>                    
-                    <input type="checkbox" name="agree">                    
-                    Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>                
-                </label>                
-                <button type="submit">Відправити</button>            
-            </form>        
         </div>    
     </div>    
     <script src="modal.js"></script>
