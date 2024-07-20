@@ -428,4 +428,212 @@ footer {
             }
             }
 
-            
+            .profile-card {
+                text-align: center;
+                border: 1px solid #ccc;
+                padding: -20px;
+                width: 300px;
+                }
+                
+                .profile-card img {
+                width: 100%;
+                height: auto;
+                }
+                
+                .profile-card h2 {
+                margin: 10px 0;
+                }
+                
+                .profile-card p {
+                color: gray;
+                }
+                
+                .social-icons {
+                display: flex;
+                justify-content: center;
+                margin-top: -50px;
+                }
+                
+                .social-icons a {
+                margin: 0 5px;
+                }
+                
+                .social-icons img {
+                width: 24px;
+                height: 24px;
+                }
+
+                .social-icons:hover{
+                    color: #2196F3;
+                }
+
+               .phone{
+                fill: gray;
+                width: 13px;
+               }
+
+               .envelope{
+                fill: gray;
+                width: 19px;
+               }
+
+               .phone:hover{
+                fill: #2196F3;
+               }
+
+               .envelope:hover{
+                fill: #2196F3;
+               }
+
+               .instagram{
+                width: 49px;
+                fill: gray;
+                margin-top: 35px;
+               }
+
+               .instagram:hover{
+                fill: #2196F3;
+               }
+
+               .in{
+                fill: gray;
+                width: 49px;
+                margin-top: 35px;
+               }
+
+               .in:hover{
+                fill: #2196F3;
+               }
+
+               .facebook{
+                fill: gray;
+                width: 49px;
+                margin-top: 35px;
+               }
+
+               .facebook:hover{
+                fill: #2196F3;
+               }
+
+               .twitter{
+                fill: gray;
+                width: 49px;
+                margin-top: 35px;
+               }
+
+               .twitter:hover{
+                fill: #2196F3;
+               }
+
+               .instagram1{
+                width: 49px;
+                fill: white;
+               
+               }
+
+               .instagram1:hover{
+                fill: #2196F3;
+               }
+
+               .facebook1{
+                width: 49px;
+                fill: white;
+               
+               }
+
+               .facebook1:hover{
+                fill: #2196F3;
+               }
+
+               .twitter1{
+                width: 49px;
+                fill: white;
+              
+               }
+
+               .twitter1:hover{
+                fill: #2196F3;
+               }
+
+               .in1{
+                width: 49px;
+                fill: white;
+               
+               }
+
+               .in1:hover{
+                fill: #2196F3;
+               }
+
+               .group{
+                fill: gray;
+               }
+
+               .group:hover{
+                fill: #2196F3;
+               }
+
+               .group1{
+                fill: gray;
+               }
+
+               .group1:hover{
+                fill: #2196F3;
+               }
+
+               .group2{
+                fill: gray;
+               }
+
+               .group2:hover{
+                fill: #2196F3;
+               }
+               
+               .group3{
+                fill: gray;
+               }
+
+               .group3:hover{
+                fill: #2196F3;
+               }
+
+               .group4{
+                fill: gray;
+               }
+
+               .group4:hover{
+                fill: #2196F3;
+               }
+
+               .group5{
+                fill: gray;
+               }
+
+               .group5:hover{
+                fill: #2196F3;
+               }
+
+               .group6{
+                fill: gray;
+               }
+
+               .group6:hover{
+                fill: #2196F3;
+               }
+
+
+               .g{
+                text-align: center;
+                border: 1px solid #ccc;
+                padding: 1px;
+                width: 250px;
+                height: 165px;
+               }
+
+               .g:hover{
+                fill: #2196F3;
+               }
+
+               .sss{
+                width: 250px;
+               }
