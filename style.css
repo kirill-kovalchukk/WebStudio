@@ -471,7 +471,6 @@ footer {
                 .social-icons {
                 display: flex;
                 justify-content: center;
-                margin-top: -50px;
                 }
                 
                 .social-icons a {
@@ -506,83 +505,84 @@ footer {
                }
 
                .instagram{
-                width: 49px;
+                width: 20px;
+                height: 20px;
                 fill: gray;
-                margin-top: 35px;
                }
 
                .instagram:hover{
-                fill: #2196F3;
                }
 
                .in{
                 fill: gray;
-                width: 49px;
-                margin-top: 35px;
+                width: 20px;
+                height: 20px;
                }
 
                .in:hover{
-                fill: #2196F3;
                }
 
                .facebook{
                 fill: gray;
-                width: 49px;
-                margin-top: 35px;
+                width: 20px;
+                height: 20px;
                }
 
                .facebook:hover{
-                fill: #2196F3;
                }
 
                .twitter{
                 fill: gray;
-                width: 49px;
-                margin-top: 35px;
+                width: 20px;
+                height: 20px;
                }
 
                .twitter:hover{
-                fill: #2196F3;
                }
 
                .instagram1{
-                width: 49px;
+                width: 20px;
+                height: 20px;
                 fill: white;
                
                }
 
                .instagram1:hover{
-                fill: #2196F3;
+                fill: white;
                }
 
                .facebook1{
-                width: 49px;
+                width: 20px;
+                height: 20px;
                 fill: white;
                
                }
 
                .facebook1:hover{
-                fill: #2196F3;
                }
 
                .twitter1{
-                width: 49px;
+                width: 20px;
+                height: 20px;
                 fill: white;
               
                }
 
                .twitter1:hover{
-                fill: #2196F3;
                }
 
                .in1{
-                width: 49px;
                 fill: white;
-               
+                width: 20px;
+                height: 20px;
                }
 
                .in1:hover{
-                fill: #2196F3;
+               }
+
+               .in:hover{
+               
+                
                }
 
                .group{
@@ -645,15 +645,18 @@ footer {
                .g{
                 text-align: center;
                 border: 1px solid #ccc;
-                padding: -1px;
-                width: 190px;
-                height: 165px;
-                margin: 0 20px;
+                padding: 80px;
+                width: 41px;
+                height: 46.7px;
+                margin: 0 15px;
+                border-radius: 1%;
                }
 
                .g:hover{
                 fill: #2196F3;
+                border-color: #2196F3;
                }
+
 
                .sss{
                 width: 250px;
@@ -672,4 +675,23 @@ footer {
                 position: absolute;
                 width: 26px;
                 right: 69px;
+               }
+
+               .header-item-link:hover{
+                color: #2196F3!important;
+               }
+
+               .header-item-link:hover svg{
+                fill: #2196F3;
+               }
+
+               .social-icons-link:hover{
+                fill: white;
+                background-color: #2196F3;
+               }
+
+               .social-icons-link{
+                padding: 15px;
+                border-radius: 50%;
+                height: 20px;
                }
