@@ -303,6 +303,11 @@ footer {
     align-items: center;
 }
 
+.img-our-team{
+    display: flex;
+    justify-content: space-between;
+}
+
 .postini{
     display: flex;
     justify-content: space-between;
@@ -456,7 +461,7 @@ footer {
                 text-align: center;
                 border: 1px solid #ccc;
                 padding: -20px;
-                width: 300px;
+                width: 270px;
                 }
                 
                 .profile-card img {
@@ -493,11 +498,13 @@ footer {
                .phone{
                 fill: gray;
                 width: 13px;
+                height: 13px;
                }
 
                .envelope{
                 fill: gray;
                 width: 19px;
+                height: 19px;
                }
 
                .phone:hover{
@@ -714,4 +721,9 @@ footer {
 
                .social-icons-link:hover svg{
                 fill: white;
+               }
+
+               .footer-wrap{
+                display: flex;
+                justify-content: space-between;
                }
