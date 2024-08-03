@@ -40,6 +40,7 @@ footer {
 
 .container1 {
     width: 30%;
+    margin-bottom: 30px;
 }
 
 .posts{
@@ -58,7 +59,7 @@ footer {
     overflow: hidden;
   }
 
-  .overlay-wrap:hover{
+  .container1:hover{
     box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.5);
     transition: box-shadow 0.4s ease-in-out;
   }
