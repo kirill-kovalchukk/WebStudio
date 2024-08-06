@@ -30,10 +30,15 @@ body {
     
     .header-item {
     margin: 0 15px;
+   
     }
 
     .header-item:hover{
         color: rgba(33, 150, 243, 1);
+    }
+
+    .header-item-link{
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .header-item img {
@@ -45,15 +50,11 @@ body {
     text-decoration: none;
     color: #000;
     font-size: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .header-item a:hover {
     color: #00f;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
 
     .header-list .header-item a{
@@ -513,10 +514,7 @@ footer {
                 width: 20px;
                 height: 20px;
                 fill: gray;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .instagram:hover{
@@ -527,10 +525,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 fill: gray;
                 width: 20px;
                 height: 20px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .in:hover{
@@ -541,10 +536,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 fill: gray;
                 width: 20px;
                 height: 20px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .facebook:hover{
@@ -555,10 +547,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 fill: gray;
                 width: 20px;
                 height: 20px;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .twitter:hover{
@@ -569,7 +558,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 width: 20px;
                 height: 20px;
                 fill: white;
-               
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .instagram1:hover{
@@ -580,7 +569,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 width: 20px;
                 height: 20px;
                 fill: white;
-               
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .facebook1:hover{
@@ -590,7 +579,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 width: 20px;
                 height: 20px;
                 fill: white;
-              
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .twitter1:hover{
@@ -600,6 +589,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 fill: white;
                 width: 20px;
                 height: 20px;
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .in1:hover{
@@ -610,80 +600,62 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
                .group{
                 fill: gray;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group:hover{
                 fill: #2196F3;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group1{
                 fill: gray;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group1:hover{
                 fill: #2196F3;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group2{
                 fill: gray;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group2:hover{
                 fill: #2196F3;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
                
                .group3{
                 fill: gray;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group3:hover{
                 fill: #2196F3;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group4{
                 fill: gray;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group4:hover{
                 fill: #2196F3;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group5{
                 fill: gray;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .group5:hover{
                 fill: #2196F3;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
 
@@ -751,6 +723,7 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 padding: 15px;
                 border-radius: 50%;
                 height: 20px;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                }
 
                .social-icons-link:hover svg{
@@ -762,9 +735,6 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 justify-content: space-between;
                }
 
-              
-            
-              
               .menu a::before{
                 content: "";
                 width: 100%;
@@ -792,12 +762,5 @@ box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
               .current{
                 fill: gray;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-              }
-
-              .current:hover{
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
               }
