@@ -50,7 +50,7 @@ body {
     text-decoration: none;
     color: #000;
     font-size: 16px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .header-item a:hover {
@@ -494,12 +494,14 @@ footer {
                 fill: gray;
                 width: 13px;
                 height: 13px;
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .envelope{
                 fill: gray;
                 width: 19px;
                 height: 19px;
+                transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .phone:hover{
@@ -518,7 +520,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .instagram:hover{
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
                }
 
                .in{
@@ -529,7 +530,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .in:hover{
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
                }
 
                .facebook{
@@ -540,7 +540,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .facebook:hover{
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
                }
 
                .twitter{
@@ -551,7 +550,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .twitter:hover{
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
                }
 
                .instagram1{
@@ -667,6 +665,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 height: 46.7px;
                 margin: 0 15px;
                 border-radius: 5%;
+                transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .g svg{
@@ -723,7 +722,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 padding: 15px;
                 border-radius: 50%;
                 height: 20px;
-                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                }
 
                .social-icons-link:hover svg{
